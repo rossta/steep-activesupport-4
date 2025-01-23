@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This is a fork of the [Steep gem](https://github.com/soutaro/steep). This fork exists primarily to support a legacy system that relies on ActiveSupport 4.2.
+
+---
+
 # Steep - Gradual Typing for Ruby
 
 ## Installation
@@ -68,11 +73,11 @@ class Phone
 end
 ```
 
-* You can use simple *generics*, like `Hash[String, String]`.
-* You can use *union types*, like `Email | Phone`.
-* You have to declare not only public methods but also private methods and instance variables.
-* You can declare *singleton methods*, like `self.countries`.
-* There is `nil` type to represent *nullable* types.
+- You can use simple _generics_, like `Hash[String, String]`.
+- You can use _union types_, like `Email | Phone`.
+- You have to declare not only public methods but also private methods and instance variables.
+- You can declare _singleton methods_, like `self.countries`.
+- There is `nil` type to represent _nullable_ types.
 
 ### 2. Write Ruby Code
 
@@ -194,8 +199,8 @@ It can be a good starting point to writing signatures.
 
 Because it just prints all `def`s, you may find some odd points:
 
-* The type of `initialize` in `Person` looks strange.
-* There are no `attr_reader` methods extracted.
+- The type of `initialize` in `Person` looks strange.
+- There are no `attr_reader` methods extracted.
 
 Generally, these are by our design.
 
@@ -205,12 +210,12 @@ Generally, these are by our design.
 
 There are some documents in the `manul` and `guide` directories.
 
-* [Guides](guides)
-* [Manual](manual)
+- [Guides](guides)
+- [Manual](manual)
 
 The `doc` directory contains a few internal design docs.
 
-* [Internal docs](doc)
+- [Internal docs](doc)
 
 ## Examples
 
@@ -219,6 +224,7 @@ You can find examples in `smoke` directory.
 ## IDEs
 
 Steep implements some of the Language Server Protocol features.
+
 - For **VSCode** please install [the plugin](https://github.com/soutaro/steep-vscode).
 - For **SublimeText** please install [LSP](https://github.com/sublimelsp/LSP) package and follow [instructions](https://lsp.sublimetext.io/language_servers/#steep).
 - For **Vim** or **Neovim** please install [ALE](https://github.com/dense-analysis/ale?tab=readme-ov-file#asynchronous-lint-engine). You may want to `let g:ale_ruby_steep_executable = 'bundle'` to use your bundled `steep` version.
@@ -252,4 +258,3 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/soutaro/steep.
-

@@ -4,19 +4,19 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'steep/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "steep"
+  spec.name          = "steep-activesupport-4"
   spec.version       = Steep::VERSION
   spec.authors       = ["Soutaro Matsumoto"]
   spec.email         = ["matsumoto@soutaro.com"]
 
   spec.summary       = %q{Gradual Typing for Ruby}
   spec.description   = %q{Gradual Typing for Ruby}
-  spec.homepage      = "https://github.com/soutaro/steep"
+  spec.homepage      = "https://github.com/rossta/steep-activesupport-4"
   spec.license       = 'MIT'
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/soutaro/steep"
-  spec.metadata["changelog_uri"] = "https://github.com/soutaro/steep/blob/master/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/rossta/steep-activesupport-4"
+  spec.metadata["changelog_uri"] = "https://github.com/rossta/steep-activesupport-4/blob/master/CHANGELOG.md"
 
   skip_dirs = %w(test spec features smoke sig gemfile_steep .github .vscode)
   skip_files = %w(Gemfile Gemfile.lock rbs_collection.steep.yaml rbs_collection.steep.lock.yaml)
@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 3.1.0'
 
   spec.add_runtime_dependency "parser", ">= 3.1"
-  spec.add_runtime_dependency "activesupport", ">= 5.1"
+  spec.add_runtime_dependency "activesupport", ">= 4.2"
   spec.add_runtime_dependency "rainbow", ">= 2.2.2", "< 4.0"
   spec.add_runtime_dependency "listen", "~> 3.0"
   spec.add_runtime_dependency "language_server-protocol", ">= 3.15", "< 4.0"

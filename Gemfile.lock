@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    steep (1.9.3)
-      activesupport (>= 5.1)
+    steep-activesupport-4 (1.9.3)
+      activesupport (>= 4.2)
       concurrent-ruby (>= 1.1.10)
       csv (>= 3.0.9)
       fileutils (>= 1.1.0)
@@ -113,7 +113,7 @@ DEPENDENCIES
   minitest-slow_test
   rake
   stackprof
-  steep!
+  steep-activesupport-4!
   vernier (~> 1.4)
 
 BUNDLED WITH

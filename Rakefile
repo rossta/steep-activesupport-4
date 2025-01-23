@@ -21,11 +21,12 @@ namespace :test do
   end
 end
 
-Rake::Task[:release].enhance do
-  Rake::Task[:"release:note"].invoke
-  Rake::Task[:"release:github"].invoke
-  Rake::Task[:"release:release-prs"].invoke
-end
+# Disable the following task enhancement add upstream
+# Rake::Task[:release].enhance do
+#   Rake::Task[:"release:note"].invoke
+#   Rake::Task[:"release:github"].invoke
+#   Rake::Task[:"release:release-prs"].invoke
+# end
 
 desc "Generate changelog template from GH pull requests"
 task :changelog do
