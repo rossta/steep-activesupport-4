@@ -1,0 +1,59 @@
+csv
+  ruby: 3.3 gem:  3.2.8 (default)
+  ruby: 3.2 gem:  3.2.6 (default)
+  ruby: 3.1 gem:  3.2.5 (default)
+  ruby: 3.1.2 gem:  3.2.2 (default)
+  ruby: 3.1.1 gem:  3.2.2 (default)
+  ruby: 3.1.0 gem:  3.2.2 (default)
+  ruby: 3.4 gem:  3.3.2 (bundled)
+
+fileutils
+  ruby: 3.4 gem:  1.7.3 (default)
+  ruby: 3.3 gem:  1.7.2 (default)
+  ruby: 3.2 gem:  1.7.0 (default)
+  ruby: 3.1 gem:  1.6.0 (default)
+
+json
+  ruby: 3.4 gem:  2.9.1 (default)
+  ruby: 3.3.6 gem:  2.7.2 (default)
+  ruby: 3.3.5 gem:  2.7.1 (default)
+  ruby: 3.3.4 gem:  2.7.1 (default)
+  ruby: 3.3.3 gem:  2.7.1 (default)
+  ruby: 3.3.2 gem:  2.7.1 (default)
+  ruby: 3.3.1 gem:  2.7.1 (default)
+  ruby: 3.3.0 gem:  2.7.1 (default)
+  ruby: 3.2 gem:  2.6.3 (default)
+  ruby: 3.1 gem:  2.6.1 (default)
+
+logger
+  ruby: 3.4 gem:  1.6.4 (default)
+  ruby: 3.3 gem:  1.6.0 (default)
+  ruby: 3.2 gem:  1.5.3 (default)
+  ruby: 3.1 gem:  1.5.0 (default)
+
+rbs
+  ruby: 3.4 gem:  3.8.0 (bundled)
+  ruby: 3.3 gem:  3.4.0 (bundled)
+  ruby: 3.2 gem:  2.8.2 (bundled)
+  ruby: 3.1 gem:  2.7.0 (bundled)
+  ruby: 3.1.2 gem:  2.1.0 (bundled)
+  ruby: 3.1.1 gem:  2.1.0 (bundled)
+  ruby: 3.1.0 gem:  2.0.0 (bundled)
+
+securerandom
+  ruby: 3.4 gem:  0.4.1 (default)
+  ruby: 3.3 gem:  0.3.1 (default)
+  ruby: 3.2 gem:  0.2.2 (default)
+  ruby: 3.1 gem:  0.2.0 (default)
+  ruby: 3.1.2 gem:  0.1.1 (default)
+  ruby: 3.1.1 gem:  0.1.1 (default)
+  ruby: 3.1.0 gem:  0.1.1 (default)
+
+strscan
+  ruby: 3.4 gem:  3.1.2 (default)
+  ruby: 3.3 gem:  3.0.9 (default)
+  ruby: 3.3.2 gem:  3.0.7 (default)
+  ruby: 3.3.1 gem:  3.0.7 (default)
+  ruby: 3.3.0 gem:  3.0.7 (default)
+  ruby: 3.2 gem:  3.0.5 (default)
+  ruby: 3.1 gem:  3.0.1 (default)
