@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> This is a fork of the [Steep gem](https://github.com/soutaro/steep). This fork exists primarily to support a legacy system that relies on ActiveSupport 4.2.
+> This is a fork of the [Steep gem](https://github.com/soutaro/steep). This fork exists primarily to support a legacy system that needs more permissive (relaxed) version constraints for selected runtime dependencies.
 
 ---
 
