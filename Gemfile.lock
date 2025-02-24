@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    steep-relaxed (1.9.3.3)
+    steep-relaxed (1.9.4.2)
       activesupport (>= 4.2)
       concurrent-ruby (>= 1.1.10)
       language_server-protocol (>= 3.15, < 4.0)
@@ -84,7 +84,7 @@ GEM
       io-console (~> 0.5)
     securerandom (0.4.1)
     stackprof (0.2.27)
-    stringio (3.1.4)
+    stringio (3.1.5)
     strscan (3.1.2)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
