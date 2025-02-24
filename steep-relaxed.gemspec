@@ -4,19 +4,19 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'steep/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "steep-activesupport-4"
+  spec.name          = "steep-relaxed"
   spec.version       = Steep::VERSION
   spec.authors       = ["Soutaro Matsumoto"]
   spec.email         = ["matsumoto@soutaro.com"]
 
   spec.summary       = %q{Gradual Typing for Ruby}
   spec.description   = %q{Gradual Typing for Ruby}
-  spec.homepage      = "https://github.com/rossta/steep-activesupport-4"
+  spec.homepage      = "https://github.com/rossta/steep-relaxed"
   spec.license       = 'MIT'
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/rossta/steep-activesupport-4"
-  spec.metadata["changelog_uri"] = "https://github.com/rossta/steep-activesupport-4/blob/master/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/rossta/steep-relaxed"
+  spec.metadata["changelog_uri"] = "https://github.com/rossta/steep-relaxed/blob/master/CHANGELOG.md"
 
   skip_dirs = %w(test spec features smoke sig gemfile_steep .github .vscode)
   skip_files = %w(Gemfile Gemfile.lock rbs_collection.steep.yaml rbs_collection.steep.lock.yaml)
